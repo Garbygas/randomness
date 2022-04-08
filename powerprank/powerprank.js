@@ -1,4 +1,5 @@
-window.main = function () {
+window.garby.main = function () {
+    alert("Hello World!");
     const params = new URLSearchParams(window.location.search);
     a = params.get('f');
     b = params.get("l");
